@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ESNext",
+        "types": ["vite/client"],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "strict": true,
+        "allowJs": true,
+        "strictNullChecks": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": false,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": false,
+        "inlineSources": true,
+        "sourceMap": true
+    }
+}
