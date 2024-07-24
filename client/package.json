@@ -11,12 +11,13 @@
   "dependencies": {
     "@discord/embedded-app-sdk": "^1.1.2",
     "colyseus.js": "^0.15.18",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
     "phaser": "^3.80.1"
-    
   },
   "devDependencies": {
-    "vite": "^5.2.9",
+    "colyseus": "^0.15.17",
     "typescript": "^5.2.2",
-    "colyseus": "^0.15.17"
+    "vite": "^5.2.9"
   }
 }

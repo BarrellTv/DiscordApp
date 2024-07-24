@@ -1,0 +1,17 @@
+{
+  "name": "discord-game",
+  "version": "1.0.0",
+  "description": "Custom Discord Game",
+  "main": "index.js",
+  "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\"",
+      "server": "cd server && npm run build && npm start",
+      "client": "cd client && npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "concurrently": "^8.2.2"
+  }
+}

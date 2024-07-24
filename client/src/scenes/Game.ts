@@ -110,11 +110,11 @@ export class TactonGame extends Scene {
     async connectToServer() {
         if (!discordAuth) await setupDiscordSdk();
 
-        /*if (discordAuth == null) {
+        if (discordAuth == null) {
         // throw new Error('Discord Auth is not set up!');
             await setupDiscordSdk().then(() => this.connectToServer());
             return;
-        }*/
+        }
 
         if (discordSdk.channelId == null || discordSdk.guildId == null) throw new Error('Channel ID or Guild ID is missing!');
 
@@ -130,7 +130,7 @@ export class TactonGame extends Scene {
 
         // TEST Discord
         // const client = new Client("wss://${location.host}/api");
-        const client = new Client(`wss://1229829326296584223.discordsays.com/api`);
+        const client = new Client(`wss://1265308143290810542.discordsays.com/api`);
 
         // this.turnNotification = (await client.http.get('/hello_world')).data;
 

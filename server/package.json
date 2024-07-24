@@ -16,10 +16,16 @@
     "colyseus": "^0.15.17",
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
+    "express-sslify": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "http-proxy-middleware": "^3.0.0",
+    "https": "^1.0.0",
     "ngrok": "^5.0.0-beta.2",
     "node-fetch": "^3.3.2",
-    "tsx": "^3.12.7"
+    "path": "^0.12.7",
+    "tsx": "^3.12.7",
+    "vite": "^5.3.4"
   },
   "devDependencies": {
     "@colyseus/cloud": "^1.0.11",
